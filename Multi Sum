@@ -1,0 +1,16 @@
+class Arithmetic {
+    public int sum(Integer[] numbers) {
+        int sum = 0;
+        for (int num : numbers) {
+            sum += num;
+        }
+        return sum;
+}
+    public String sum(String[] strings) {
+        String result = "";
+        for (String str : strings) {
+            result += str;
+        }
+        return result;
+    }
+}
